@@ -16,7 +16,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (min-width:900px) {
     body {
         background-color: cadetblue;
     }
