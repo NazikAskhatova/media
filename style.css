@@ -18,3 +18,61 @@ body {
        font-size: 6rem;
     }
 }
+
+.grid-example {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-example div {
+    flex: 0 0 25%;
+    padding: 20px 20px;
+}
+
+@media (max-width: 900px) {
+    .grid-example div {
+        flex: 0 0 33.33333333%;
+    }
+}
+
+@media (max-width: 780px) {
+    .grid-example div {
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 565px) {
+    .grid-example div {
+        flex: 100%;
+    }
+}
+
+.grid-example-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-example-2 div {
+    flex: 100%;
+    padding: 20px 20px;
+}
+
+@media (min-width: 565px) {
+    .grid-example-2 div {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 780px) {
+    .grid-example-2 div {
+        flex: 0 0 33.33333333%;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid-example-2 div {
+        flex: 0 0 25%;
+    }
+}
+
+
