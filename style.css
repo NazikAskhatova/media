@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+}
+
+@media (max-width: 841px) {
+    body {
+        background-color: chocolate;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: cadetblue;
+    }
+}
