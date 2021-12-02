@@ -75,4 +75,68 @@ body {
     }
 }
 
+article {
+    padding: .5rem;
+}
+
+article img {
+    width: 350px;
+   padding: .3rem;
+   border: 1px solid rgb(151, 151, 56);
+   margin: .5rem;
+}
+
+.right {
+    float: right;
+    margin-left: 0;
+}
+
+.left {
+    float: left;
+    margin-right: 0 ;
+}
+
+
+@media (max-width: 900px) {
+    article img {
+        width: 300px;
+    }
+}
+
+@media (max-width:768px) {
+    article img {
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 565px) {
+    img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:768px) {
+    p {
+      font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 565px) {
+   p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
 
