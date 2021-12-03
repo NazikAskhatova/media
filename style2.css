@@ -1,0 +1,36 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.grey {
+background-color: grey;
+height: 50px;
+margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+.grey {
+    width: 580px;
+}
+}
+
+@media (min-width: 700px) {
+    .grey {
+        width: 680px;
+    }
+}
+
+@media (min-width: 800px) {
+    .grey {
+        width: 780px;
+    }
+}
+
+@media (min-width: 900px) {
+    .grey {
+        width: 880px;
+    }
+}
+
