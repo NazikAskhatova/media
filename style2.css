@@ -10,6 +10,8 @@ height: 50px;
 margin: 0 auto;
 }
 
+/*  responsive disagn 7-11 */
+
 @media (min-width: 600px) {
 .grey {
     width: 580px;
@@ -33,4 +35,6 @@ margin: 0 auto;
         width: 880px;
     }
 }
+
+/* adaptive disagn 15-37 */
 
